@@ -1,0 +1,9 @@
+{
+  "moduleNameMapper": {
+    "^.+\\.(css|less|scss)$": "babel-jest"
+  },
+  "testEnvironment": "jsdom",
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  }
+}
